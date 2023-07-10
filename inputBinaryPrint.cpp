@@ -67,7 +67,7 @@ Node *inputIssue()
     return root;
 }
 
-void levelOrderLR(Node *root)
+void countNode(Node *root)
 {
     if (root == NULL)
         return;
@@ -94,7 +94,7 @@ void levelOrderLR(Node *root)
 int main()
 {
     Node *root = inputIssue();
-    levelOrderLR(root);
+    countNode(root);
 
     return 0;
 }
