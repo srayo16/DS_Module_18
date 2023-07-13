@@ -16,7 +16,7 @@ public:
     }
 };
 
-int countNode(Node *root)
+int countNodeMeh(Node *root)
 {
     int sz = 0;
     if (root == NULL)
@@ -76,7 +76,7 @@ int main()
     d->left = f;
     d->right = g;
 
-    int sz = countNode(root);
+    int sz = countNodeMeh(root);
     int sz1 = countNode(root);
     cout << sz << endl;
     cout << sz1 << endl;
